@@ -18,7 +18,6 @@
         plan_file: '{{ project_path }}/my_tfplan'
         state: planned
         force_init: true
-      #check_mode: yes
       tags:
          - plan
 
@@ -50,7 +49,9 @@
         backend_config:
           bucket: '{{ s3bucket }}'
           key: '{{ s3key }}'
-          region: '{{ s3region }}'            
+          region: '{{ s3region }}'
+        variables:
+          TagName: '{{ TagName }}'          
         state: present
         force_init: true
       tags:
