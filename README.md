@@ -1,6 +1,6 @@
 # Ansible Terraform Module
 
-This ansible playbook helps spin infrastructure by triggering terraform scripts using ansible's in-built terraform module. The module provides support for deploying resources with Terraform and pulling resource information back into Ansible.
+This ansible playbook helps spin infrastructure by triggering terraform scripts using ansible's in-built terraform module. The module provides support for deploying resources with Terraform.
 
 ## Description
 
