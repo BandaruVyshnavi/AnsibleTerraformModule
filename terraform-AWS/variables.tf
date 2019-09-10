@@ -15,7 +15,7 @@ variable "key_name" {
 
 variable "TagName" {
   type = "string"
-  default = "Vyshnavi"
+  default = "Vyshnavi123"
 }
 
 variable "Region" {
