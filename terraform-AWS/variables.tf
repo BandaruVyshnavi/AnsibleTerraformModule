@@ -1,6 +1,6 @@
 variable "ami" {
   type = "string"
-  default = "ami-035be7bafff33b6b6"
+  default = "ami-0b69ea66ff7391e80"
 }
 
 variable "instance_type" {
@@ -10,12 +10,12 @@ variable "instance_type" {
 
 variable "key_name" {
   type = "string"
-  default = "NvirginiaKP"
+  default = "Demo1-NV-Vyshnavi"
 }
 
 variable "TagName" {
   type = "string"
-  default = "Vyshnavi123"
+  default = "Vyshnavi"
 }
 
 variable "Region" {
